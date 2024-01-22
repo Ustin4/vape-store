@@ -1,0 +1,144 @@
+.box {
+  display: flex;
+}
+
+.button {
+  all: unset;
+
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6px 28px;
+
+  font-size: 14px;
+  //font-weight: var(--font-weight-bold);
+  font-style: normal;
+  //line-height: var(--line-height-m);
+  color: white;
+
+  border-radius: 4px;
+
+  transition: 0.3s;
+
+  &:focus-visible {
+    outline: 2px solid white;
+  }
+}
+
+.buttonIcon {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+
+  svg {
+    fill: var(--color-light-100);
+  }
+}
+
+.primary {
+  border-radius: 0px 0px 0px 20px;
+  background: linear-gradient(270deg, #6800FF -4.62%, #888 100%);
+  border: 1px solid white;
+  //box-shadow: 0 4px 18px 0 rgb(140 97 255 / 35%);
+  transition: 0.3s;
+  width: 144px;
+
+  //&:hover {
+  //  background: var(--color-accent-300);
+  //  transition: 0.3s;
+  //}
+
+  &:active {
+    background: var(--color-accent-700);
+  }
+
+  &:focus-visible {
+    background: var(--color-accent-500);
+  }
+
+  &:disabled {
+    color: var(--color-light-900);
+    background: var(--color-accent-900);
+
+    svg {
+      fill: var(--color-light-900);
+    }
+  }
+}
+
+.secondary {
+  background: black;
+  box-shadow: 0 2px 10px 0 rgb(109 109 109 / 25%);
+
+  &:hover {
+    background: var(--color-dark-100);
+    transition: 0.3s;
+  }
+
+  &:active {
+    background: var(--color-dark-500);
+  }
+
+  &:focus-visible {
+    background: var(--color-dark-300);
+  }
+
+  &:disabled {
+    color: var(--color-light-900);
+    background: var(--color-dark-300);
+
+    svg {
+      fill: var(--color-light-900);
+    }
+  }
+}
+
+.tertiary {
+  color: white;
+  outline: 1px solid black;
+  //background: var(--color-dark-500);
+  outline-color: white;
+  transition: 0.3s;
+  &:hover {
+
+  }
+
+  &:active {
+    background: var(--color-accent-900);
+    outline-color: var(--color-accent-700);
+  }
+
+  &:disabled {
+    color: var(--color-accent-900);
+    outline-color: var(--color-accent-900);
+  }
+}
+
+.link {
+  color: white;
+
+  &:hover {
+    color: purple;
+    transition: 0.3s;
+  }
+
+  &:active {
+    color: var(--color-accent-700);
+  }
+
+  &:focus-visible {
+    border-radius: 20px;
+  }
+
+  &:disabled {
+    color: var(--color-accent-900);
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}
