@@ -14,15 +14,13 @@ export const Cards = ({photo, description, price, name}: Props) => {
     return (
         <>
             <div className={s.container}>
-                <img
-                    className={s.img}
-                    src={img}
-                    alt=""
-                />
-                <div className={s.content}>
+                <img className={s.img} src={img} alt=""/>
+                <div className={s.cardContent}>
                     <div className={s.name}>{name}</div>
                     <div className={s.totalDescription}>{description}</div>
-                    <Price price={100}/>
+                    <div className={s.price}>
+                        <Price price={100}/>
+                    </div>
                 </div>
             </div>
             <Button className={s.buttonC} variant={"primary"}>

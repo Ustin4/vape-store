@@ -5,7 +5,7 @@
 .button {
   all: unset;
   color: #FFF;
-  font-family: Montserrat;
+  font-family: Montserrat,sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -15,11 +15,6 @@
   align-items: center;
   justify-content: center;
   padding: 6px 28px;
-  //font-size: 14px;
-  //font-weight: var(--font-weight-bold);
-  //font-style: normal;
-  //line-height: var(--line-height-m);
-  //color: white;
   border-radius: 4px;
   transition: 0.3s;
 
@@ -31,11 +26,8 @@
 .primary {
   border-radius: 0px 0px 0px 20px;
   font-family: 'Montserrat',  sans-serif;
-  //background: rgb(161,7,137);
-  //background: linear-gradient(360deg, rgba(161,7,137,1) 0%, rgba(116,9,121,1) 20%, rgba(108,18,210,1) 100%);
   background: linear-gradient(270deg, #6800FF -4.62%, #888 100%);
   transition: 0.3s;
-  //width: 144px;
   font-size: 20px;
   width: 9.08rem;
   //&:hover {

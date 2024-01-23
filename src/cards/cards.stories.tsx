@@ -13,16 +13,18 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
+
 export const Primary: Story = {
     args: {
-        name: 'name',
-        description: 'description',
+        name: 'Lost Vape Ursa Nano Pro 900 mAh Pod Kit',
+        description: 'Ursa Nano Pro выполнен в легком металлическом корпусе с ' +
+            'сохранением своей формы.' +
+            'Размер устройства скромный,а дизайн выполнен так...',
         photo: 'any',
         price: 100
     },
     render: (args) => <Cards {...args} />,
 };
-
 export const Secondary: Story = {
     args: {
         name: 'name',
