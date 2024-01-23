@@ -4,23 +4,23 @@
 
 .button {
   all: unset;
-
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   cursor: pointer;
-
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   padding: 6px 28px;
-
-  font-size: 14px;
+  //font-size: 14px;
   //font-weight: var(--font-weight-bold);
-  font-style: normal;
+  //font-style: normal;
   //line-height: var(--line-height-m);
-  color: white;
-
+  //color: white;
   border-radius: 4px;
-
   transition: 0.3s;
 
   &:focus-visible {
@@ -28,32 +28,24 @@
   }
 }
 
-.buttonIcon {
-  display: flex;
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-
-  svg {
-    fill: var(--color-light-100);
-  }
-}
-
 .primary {
   border-radius: 0px 0px 0px 20px;
+  font-family: 'Montserrat',  sans-serif;
+  //background: rgb(161,7,137);
+  //background: linear-gradient(360deg, rgba(161,7,137,1) 0%, rgba(116,9,121,1) 20%, rgba(108,18,210,1) 100%);
   background: linear-gradient(270deg, #6800FF -4.62%, #888 100%);
-  border: 1px solid white;
-  //box-shadow: 0 4px 18px 0 rgb(140 97 255 / 35%);
   transition: 0.3s;
-  width: 144px;
-
+  //width: 144px;
+  font-size: 20px;
+  width: 9.08rem;
   //&:hover {
   //  background: var(--color-accent-300);
   //  transition: 0.3s;
   //}
 
   &:active {
-    background: var(--color-accent-700);
+    //background: var(--color-accent-300);
+    color: pink;
   }
 
   &:focus-visible {
@@ -103,6 +95,7 @@
   //background: var(--color-dark-500);
   outline-color: white;
   transition: 0.3s;
+
   &:hover {
 
   }

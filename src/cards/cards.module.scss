@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   //padding: 20px;
-  border-radius: 0px 20px ;
+  border-radius:  20px 20px 0px 0px ;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border: 1px solid white;
   width: 200px;
@@ -18,31 +18,41 @@
   }
 
   .content {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
   }
 
   .name {
-    border: 1px solid yellow;
-    font-size: 18px;
-    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px;
+    //font-size: 18px;
+    //font-weight: bold;
     margin-bottom: 8px;
   }
 
   .totalDescription {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: 'Montserrat',sans-serif;
     font-size: 14px;
-    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+    //margin-bottom: 10px;
   }
-
   .buttonC {
-    margin-top: 10px;
+    border: 1px solid black;
+    //margin-top: 10px;
+    //width: 9.9rem;
   }
 
-  .name,
-  .totalDescription,
-  .Price {
-    margin-bottom: 10px;
-  }
+
 }
