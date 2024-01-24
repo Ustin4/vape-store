@@ -30,13 +30,9 @@
   transition: 0.3s;
   font-size: 20px;
   width: 9.08rem;
-  //&:hover {
-  //  background: var(--color-accent-300);
-  //  transition: 0.3s;
-  //}
+
 
   &:active {
-    //background: var(--color-accent-300);
     color: pink;
   }
 
@@ -48,9 +44,6 @@
     color: var(--color-light-900);
     background: var(--color-accent-900);
 
-    svg {
-      fill: var(--color-light-900);
-    }
   }
 }
 
@@ -81,27 +74,6 @@
   }
 }
 
-.tertiary {
-  color: white;
-  outline: 1px solid black;
-  //background: var(--color-dark-500);
-  outline-color: white;
-  transition: 0.3s;
-
-  &:hover {
-
-  }
-
-  &:active {
-    background: var(--color-accent-900);
-    outline-color: var(--color-accent-700);
-  }
-
-  &:disabled {
-    color: var(--color-accent-900);
-    outline-color: var(--color-accent-900);
-  }
-}
 
 .link {
   color: white;

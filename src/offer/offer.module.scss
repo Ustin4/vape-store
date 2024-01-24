@@ -1,33 +1,56 @@
-.box {
+.container {
   display: flex;
-  height: 3.70rem;
-  border: 1px solid red;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px 20px 0px 0px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  width: 260px;
+  //color: black;
+  background: white;
 
-  .logo {
-    color: white;
-    padding: 20px;
+  .img {
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;;
+    width: 260px;
+    height: 200px;
+    margin-bottom: 10px;
   }
 
-  .range {
-    width: 100%;
+  .cardContent {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
-    color: white;
-    justify-content: flex-end;
-    border: 1px solid yellow;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 14.4rem;
+    //margin-left: 11px;
   }
-  a {
-    padding: 10px 15px;
-    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    letter-spacing: 0.2px;
-    border-radius: 4px;
-    position: relative;
-    //color: $textColor;
-    text-decoration: none;
-    cursor: pointer;
 
-    &:hover {
-      //background-color: $primaryColor;
-      transition: 0.3s;
-    }
+  .name {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-bottom: 8px;
+
+
+  }
+
+  .totalDescription {
+    color: #201F1F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    padding: 10px;
+  }
+
+
+  .price {
+    border: 1px solid black;
+    display: flex;
+    padding: 15px;
   }
 }
