@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/vape-shop.iml" filepath="$PROJECT_DIR$/.idea/vape-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/VapeShop.iml" filepath="$PROJECT_DIR$/.idea/VapeShop.iml" />
     </modules>
   </component>
 </project>
