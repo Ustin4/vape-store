@@ -6,12 +6,11 @@
   border-left: 1px solid white;
   border-right: 1px solid white;
   width: 260px;
-  //color: black;
   background: white;
 
   .img {
-    border: 1px solid black;
-    border-radius: 20px 20px 0px 0px;;
+    //border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
     width: 260px;
     height: 200px;
     margin-bottom: 10px;
@@ -19,27 +18,21 @@
 
   .cardContent {
     font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 14.4rem;
-    //margin-left: 11px;
+    //display: flex;
+    //flex-direction: column;
+    //align-items: flex-start;
+    //max-width: 14.4rem;
   }
 
   .name {
-    color: black;
-    text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
     margin-bottom: 8px;
-
-
   }
 
   .totalDescription {
-    color: #201F1F;
     font-size: 14px;
     font-style: normal;
     font-weight: 100;
@@ -47,9 +40,8 @@
     padding: 10px;
   }
 
-
   .price {
-    border: 1px solid black;
+    //border: 1px solid black;
     display: flex;
     padding: 15px;
   }

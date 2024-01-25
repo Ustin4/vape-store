@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  //flex-direction:row;
+  align-items: flex-end;
+  color: black;
+  //font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-radius: 20px;
+  background: white;
+  width: 46rem;
+  height: 19.5rem;
+
+  .img {
+    background: #3E66DF;
+    border-radius: 0px 200px 0px 0px;
+    width: 16.2rem;
+  }
+  .content {
+    padding: 20px;
+    width: 25rem;
+  }
+
+  .advantages {
+  }
+}
