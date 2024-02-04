@@ -2,7 +2,6 @@
   position: relative;
   width: 100rem;
   height: 21.75rem;
-  font-family: 'Montserrat', sans-serif;
 
   .img {
     position: absolute;
@@ -19,35 +18,10 @@
   .text {
     position: relative;
     z-index: 2;
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    .title {
-      color: #FFF;
-      font-family: Montserrat;
-      font-size: 48px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-    }
-    .description {
-      display: flex;
-      text-align: left;
-      justify-items: flex-start;
-      padding-right: 40rem;
-      width: 35rem;
-      color: #FFF;
-      font-family: Montserrat;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      opacity: 0.55;
-    }
-
   }
 }
 
